@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import './nav.css';
+import {Link} from 'react-router-dom';
 
 
 import './app.css';
@@ -10,15 +11,16 @@ function Nav(){
     <div className='nav-wrapper'>
       <div className='top-bar'>
         <div className='actions'>
-          <div className='seat-geek-logo'>
+          <Link to='/'><div className='seat-geek-logo'>
 
-          </div>
+          </div></Link>
 
           <Button/>
 
         </div>
+
         <div className='sign-up'>
-          <p>Track My Order</p><p>Sign Up</p><p>Log In</p>
+          <Link to='/trackmyorder'><p>Track My Order</p></Link><p>Sign Up</p><p>Log In</p>
         </div>
 
       </div>
