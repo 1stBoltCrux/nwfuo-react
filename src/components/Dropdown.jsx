@@ -4,7 +4,7 @@ import './dropdown.css';
 function Dropdown(){
   return(
     <div className='dropdown-wrapper'>
-      <p>DROPDOOOOOWN!</p>
+      <p>SPORTS BALL CHAMPS</p>
 
     </div>
   );

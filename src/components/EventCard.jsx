@@ -15,8 +15,8 @@ function EventCard(props){
 
       </div>
 
-      <h3>{props.name}</h3>
-      <p>{props.date}</p><p> - {props.location}</p>
+      <h3 className='name'>{props.name}</h3>
+      <div className='location'><p>{props.date} - {props.location}</p></div>
     </div>
   );
 }

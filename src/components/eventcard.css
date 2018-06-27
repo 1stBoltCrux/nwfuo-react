@@ -22,3 +22,14 @@
   position: relative;
   top: -20px;
 }
+
+.name {
+  margin-top: -5px;
+}
+
+
+.location p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

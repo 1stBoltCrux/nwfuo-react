@@ -58,6 +58,14 @@ const eventArray = [
     date: 'Jul 7',
     price: '$30'
 
+  },
+  {
+    image:'https://chairnerd.global.ssl.fastly.net/images/performers-landscape/portland-timbers-cf610c/6756/huge.jpg',
+    name: 'Quakes at Tims',
+    location: 'Providence Park',
+    date: 'Jul 7',
+    price: '$30'
+
   }
 
 ];
