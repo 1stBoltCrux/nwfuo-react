@@ -1,17 +1,22 @@
 import React from 'react';
 import Nav from './Nav';
-import MainContainer from './MainContainer';
+import Home from './Home';
+import Team from './Team';
+import AboutUs from './AboutUs';
+import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
-import TrackMyOrder from './TrackMyOrder';
+import './app.css';
+
 
 function App(){
   return (
     <div className='app-wrapper'>
       <Nav/>
       <Switch>
-      <Route exact path = '/' component={MainContainer}/>
-
-      <Route exact path = '/trackmyorder' component={TrackMyOrder}/>
+        <Route exact path = '/' component={Home}/>
+        <Route exact path = '/team' component={Team}/>
+        <Route exact path = '/aboutus' component={AboutUs}/>
+        <Route component={Error404}/>
       </Switch>
     </div>
 

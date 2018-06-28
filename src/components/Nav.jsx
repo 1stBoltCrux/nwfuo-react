@@ -1,42 +1,31 @@
 import React from 'react';
-import Button from './Button';
 import './nav.css';
+import flounder from './../assets/images/flounder.jpg'
 import {Link} from 'react-router-dom';
 
 
-import './app.css';
-
 function Nav(){
-  return (
+  return(
     <div className='nav-wrapper'>
       <div className='top-bar'>
-        <div className='actions'>
-          <Link to='/'><div className='seat-geek-logo'>
-
-          </div></Link>
-
-          <Button/>
+        <div className='nav-logo'>
 
         </div>
+        <ul className='top-bar-links'>
+          <Link to='/'><li>Home</li></Link>
+          <Link to='/team'><li>Team</li></Link>
+          <Link to='/aboutus'><li>About Us</li></Link>
+        </ul>
+        <div className='nav-social'>
+          <img src={flounder} width='200px'/>
 
-        <div className='sign-up'>
-          <Link to='/trackmyorder'><p>Track My Order</p></Link><p>Sign Up</p><p>Log In</p>
         </div>
-
       </div>
-      <div className='title-search'>
-        <h1>Billions of tickets from one guy.</h1>
-          <div className='search-bar'>
-            <div className='search-image'>
-              <img src='https://upload.wikimedia.org/wikipedia/commons/5/55/Magnifying_glass_icon.svg'/>
-            </div>
-
-            <input type='text' placeholder='Search by team, artist, or venue'></input><button type='submit'>Search</button>
-
-          </div>
+      <div className='nav-line'>
 
       </div>
     </div>
+
   );
 }
 

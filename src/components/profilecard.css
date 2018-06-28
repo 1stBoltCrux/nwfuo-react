@@ -1,0 +1,44 @@
+.profile-card-wrapper h3 {
+ margin: 0;
+}
+
+.profile-card-wrapper p {
+  margin: 0;
+}
+
+.profile-card-wrapper h1 {
+  margin: 0;
+}
+
+.profile-card-wrapper {
+
+
+  margin: auto;
+  width: 350px;
+  border: solid 2px #ebebeb;
+}
+.profile-title {
+  background-color: #ebebeb;
+
+}
+.profile-body-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.profile-body-top h3 {
+  margin-right: 100px;
+}
+
+.profile-body-top img {
+  height: 150px;
+}
+
+.keanu {
+  margin-bottom: 10px;
+}
+
+.spirit {
+  margin-bottom: 10px;
+}
