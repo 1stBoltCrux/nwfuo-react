@@ -1,0 +1,7 @@
+.team-wrapper {
+  margin: auto;
+  display: flex;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

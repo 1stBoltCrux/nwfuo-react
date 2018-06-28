@@ -1,6 +1,7 @@
 import React from 'react';
 import ProfileCard from './ProfileCard'
 import whiteguy from './../assets/images/whiteguy.jpg'
+import './team.css'
 function Team(){
 
   const personArray = [
@@ -9,49 +10,63 @@ function Team(){
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
     },
     {
       name: 'Todd',
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
     },
     {
       name: 'Todd',
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
     },
     {
       name: 'Todd',
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
     },
     {
       name: 'Todd',
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
     },
     {
       name: 'Todd',
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
     },
     {
       name: 'Todd',
       image: whiteguy,
       spirit: 'Pangolin',
       keanu: 'Speed 2',
-      title: 'Manager'
+      title: 'Chief Observator'
+    },
+    {
+      name: 'Todd',
+      image: whiteguy,
+      spirit: 'Pangolin',
+      keanu: 'Speed 2',
+      title: 'Chief Observator'
+    },
+    {
+      name: 'Todd',
+      image: whiteguy,
+      spirit: 'Pangolin',
+      keanu: 'Speed 2',
+      title: 'Chief Observator'
     }
   ]
   return(

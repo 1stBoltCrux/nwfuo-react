@@ -6,7 +6,7 @@ import './aboutus.css';
 function AboutUs(){
   return(
     <div className='about-us-wrapper'>
-      <h1 className='about-title'>THE HISTORY AND MISSION OF <span className='text-change'>N.W.I.S.D.O.P.M.P.H.D.F.U.</span></h1>
+      <h1 className='about-title'>THE HISTORY AND MISSION OF <span className='text-change'>N.W.I.S.D.O.P.M.P.H.D.F.U.O.</span></h1>
       <div className='alien'>
         <img className='alienpic'src={alienguy}></img>
         <p>(TEAMWORK)</p>
